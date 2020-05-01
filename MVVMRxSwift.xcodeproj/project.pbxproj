@@ -16,6 +16,9 @@
 		0AD374CF245BD70000D15701 /* MVVMRxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD374CE245BD70000D15701 /* MVVMRxSwiftTests.swift */; };
 		0AD374DA245BD70000D15701 /* MVVMRxSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD374D9245BD70000D15701 /* MVVMRxSwiftUITests.swift */; };
 		0AD374E8245BD8D400D15701 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD374E7245BD8D400D15701 /* AppCoordinator.swift */; };
+		0AD374EA245BDAFC00D15701 /* restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD374E9245BDAFC00D15701 /* restaurants.json */; };
+		0AD374EC245BDB9400D15701 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD374EB245BDB9400D15701 /* Restaurant.swift */; };
+		0AD374EE245BDCB500D15701 /* RestaurantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD374ED245BDCB500D15701 /* RestaurantService.swift */; };
 		222A8D5C9E9990C8DFA836C8 /* Pods_MVVMRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B0806F3A6129BF0BAB30A5C /* Pods_MVVMRxSwift.framework */; };
 		DD3620D8741D640913D82BBC /* Pods_MVVMRxSwift_MVVMRxSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B2A6A82AEC5EE9C42B1C03 /* Pods_MVVMRxSwift_MVVMRxSwiftUITests.framework */; };
 		DFFA66DF9A2A3AD97C9D205C /* Pods_MVVMRxSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8BEF48ACD3C97270B86307 /* Pods_MVVMRxSwiftTests.framework */; };
@@ -54,6 +57,9 @@
 		0AD374D9245BD70000D15701 /* MVVMRxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMRxSwiftUITests.swift; sourceTree = "<group>"; };
 		0AD374DB245BD70000D15701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AD374E7245BD8D400D15701 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		0AD374E9245BDAFC00D15701 /* restaurants.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = restaurants.json; sourceTree = "<group>"; };
+		0AD374EB245BDB9400D15701 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		0AD374ED245BDCB500D15701 /* RestaurantService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantService.swift; sourceTree = "<group>"; };
 		1ACF5E3524C0A6A9431B3B28 /* Pods-MVVMRxSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMRxSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-MVVMRxSwiftTests/Pods-MVVMRxSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2C8BEF48ACD3C97270B86307 /* Pods_MVVMRxSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMRxSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B0806F3A6129BF0BAB30A5C /* Pods_MVVMRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +132,9 @@
 				0AD374C2245BD70000D15701 /* LaunchScreen.storyboard */,
 				0AD374C5245BD70000D15701 /* Info.plist */,
 				0AD374E7245BD8D400D15701 /* AppCoordinator.swift */,
+				0AD374E9245BDAFC00D15701 /* restaurants.json */,
+				0AD374EB245BDB9400D15701 /* Restaurant.swift */,
+				0AD374ED245BDCB500D15701 /* RestaurantService.swift */,
 			);
 			path = MVVMRxSwift;
 			sourceTree = "<group>";
@@ -280,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AD374EA245BDAFC00D15701 /* restaurants.json in Resources */,
 				0AD374C4245BD70000D15701 /* LaunchScreen.storyboard in Resources */,
 				0AD374C1245BD70000D15701 /* Assets.xcassets in Resources */,
 				0AD374BF245BD6FD00D15701 /* Main.storyboard in Resources */,
@@ -410,9 +420,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AD374EC245BDB9400D15701 /* Restaurant.swift in Sources */,
 				0AD374E8245BD8D400D15701 /* AppCoordinator.swift in Sources */,
 				0AD374BC245BD6FD00D15701 /* ViewController.swift in Sources */,
 				0AD374B8245BD6FD00D15701 /* AppDelegate.swift in Sources */,
+				0AD374EE245BDCB500D15701 /* RestaurantService.swift in Sources */,
 				0AD374BA245BD6FD00D15701 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
